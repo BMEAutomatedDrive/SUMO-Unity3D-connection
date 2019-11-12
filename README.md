@@ -1,3 +1,7 @@
+If you find the codes useful in your work, please, cite one of our papers in your publication:
+https://ieeexplore.ieee.org/document/8519486
+https://content.sciendo.com/view/journals/ttj/20/2/article-p153.xml
+
 # SUMO-Unity3D-connection
 This exapmle demonstrates real-time communication between the microscopic traffic simulator SUMO and the 3D game engine Unity 3D with Python 3.7 based TCP server. 
 
