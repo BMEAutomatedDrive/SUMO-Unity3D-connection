@@ -5,7 +5,7 @@ The project can be executed standalone. In the Executables folder start Main.exe
 
 # SUMO 
 A simple rectangular traffic network is constructed with 4 junctions, 4 links and 5 vehicles. 
-Note: SUMO shall be installed to C:\Sumo or its path shall be modified in the Python source. 
+Note: SUMO shall be installed to C:\Sumo or its path shall be modified in the Python source. The SUMO network folder shall be on the same level as the Executables and the Python_source folders.
 
 # Python
 Python establishes the communication between SUMO and Unity 3D. Python communicates with SUMO using the TRACI interface. It reads the states of vehicles within the traffic simulation and stores them as objects. The Python code also creates a TCP server (IP: localhost, Port: 4042) to communicate with Unity 3D. Vehicle states from SUMO are periodically transmitted to Unity 3D.
@@ -15,9 +15,14 @@ Unity 3D is responsible for visualisation. The received TCP messages are split i
 Note: while running your project (in the editor or application), the TCP client stops just after the TCP server stops. That means, you may stop the server first.
 
 # Software versions
-SUMO 1.2
+SUMO 1.2 
+
 Python 3.7
+
 Unity 2018.3.5f1
+
+# Zipped files
+The Executeables and the Unity project source are uploaded as .7zip files split into 20Mb packages (due to GitHub's size limit). Unzip them to the root folder of this project. 
 
 # References
 If you have found the codes useful in your work, please, cite one of our papers in your publication, i.e.
