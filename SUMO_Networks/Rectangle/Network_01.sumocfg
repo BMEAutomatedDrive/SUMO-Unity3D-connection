@@ -1,0 +1,29 @@
+<configuration>
+
+    <input>
+        <net-file value="Network_01.net.xml"/>
+		<route-files value="Network_01.rou.xml"/> 
+		<additional-files value="Network_01.add.xml"/>
+    </input>
+
+    <processing>
+        <time-to-teleport value="-1"/>
+		<lanechange.duration value="2"/>
+    </processing>
+	
+	<time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+	
+	<step-length value="0.02" /> 
+
+    <report>
+        <xml-validation value="never"/>
+        <duration-log.disable value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+	<gui-settings-file value="gui-settings.cfg"/>
+	
+</configuration>

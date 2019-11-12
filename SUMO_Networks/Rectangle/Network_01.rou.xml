@@ -1,0 +1,24 @@
+<!-- vehicle flow definition -->
+<routes>
+	<vType id="car" type="passenger" length="10" accel="2.5" decel="5" sigma="0.5"/>
+	<vehicle id="carA" depart="0.00" length="5" width="2" accel="3" decel="5" departLane="free" color="orange">
+        <route edges="U1 U3 U4 U6"/>
+    </vehicle>
+	<vehicle id="carB" depart="0.00" length="3.5" width="1.9" accel="4" decel="5" departLane="free" color="yellow">
+        <route edges="U3 U4 U6 U1"/>
+    </vehicle>
+	<vehicle id="carC" depart="0.00" length="4" width="1.8" accel="3.5" decel="1" departLane="free" color="90,60,90">
+        <route edges="U4 U6 U1 U3"/>
+    </vehicle>
+	<vehicle id="carD" depart="0.00" length="4.5" width="1.75" accel="3.2" decel="3" departLane="free" color="red">
+        <route edges="U6 U1 U3 U4"/>
+    </vehicle>
+	<vehicle id="carE" depart="0.00" length="2" width="1.5" accel="5" decel="6" departLane="free" color="blue">
+        <route edges="U1 U3 U4 U6"/>
+    </vehicle>
+	
+</routes>
+
+
+
+
